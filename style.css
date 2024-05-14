@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    align-items: center;
+    /* centers vertically */
+    justify-content: center;
+    padding: 50px;
+    background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff33bb407-c6e3-41d4-a12c-73bde1b65aa3%2FNotion_Doc_LoA_Header_Graphics.png?table=block&id=4929310f-457b-4279-9d48-c9832365962c&spaceId=154fcae5-90df-4fd9-96a7-2038aff3fc76&width=2000&userId=0df6b6b2-2c4a-4446-b832-f249dd46034f&cache=v2);
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+}
+
+#form-button {
+    margin-top: 50px;
+}
+
+#logo {
+    max-width: 20em;
+}
+
+/* BUTTON STYLES */
+
+.btn-shadow {
+    box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -6px 6px 0px 0px rgb(0 0 0);
+    -webkit-box-shadow: 1px 1px 0px 0px rgb(8 8 8), -1px -1px 0px 0px rgb(8 8 8), 1px -1px 0px 0px rgb(0 0 0), -1px 1px 0px 0px rgb(0 0 0), -6px 6px 0px 0px rgb(0 0 0);
+    -moz-box-shadow: 1px 1px 0px 0px rgb(8, 8, 8), -1px -1px 0px 0px rgb(8, 8, 8), 1px -1px 0px 0px rgb(0, 0, 0), -1px 1px 0px 0px rgb(0, 0, 0), -6px 6px 0px 0px rgba(0, 0, 0, 1);
+    position: relative;
+}
+
+.btn-orange {
+    color: #fff !important;
+    background-color: #ec621d;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    max-width: 10em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 0.6em 2em;
+    background: #ec621d;
+    /* -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out; */
+
+    transition: transform 250ms ease-in-out, opacity 250ms linear, -webkit-transform 250ms ease-in-out;
+    margin: 0.35em;
+    border: none;
+    outline: none;
+}
