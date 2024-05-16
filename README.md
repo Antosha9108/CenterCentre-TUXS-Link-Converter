@@ -8,9 +8,9 @@ Live Call Notes.
 Solves the problem of misspelling in the file name that causes the broken link for a pdf file and delay in posting live notes
 
 OPTIMIZATION:
-- ADD CSS
-- ADD COPY TO CLIPBOARD BUTTONS (DONE)
-- GENERATE FULL NOTE INSTEAD OF JUST PDF LINK
--FIX README FILE
+[] ADD CSS
+[*] ADD COPY TO CLIPBOARD BUTTONS (DONE)
+[] GENERATE FULL NOTE INSTEAD OF JUST PDF LINK
+[] CONVERT TO REACT
 
 
