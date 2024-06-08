@@ -15,7 +15,8 @@ function updateFileName() {
     var fileNameElement = document.getElementById('file-name');
     var fileLinkElement = document.getElementById('file-link')
     // Remove punctuation with regex,spaces from the input and replace with dashes
-    var fileName = input.replace(/[^\w\s]/g, '').split(' ').join('-').replace('---', '-')
+    var fileName = input.replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').split(' ').join('-').replace('---', '-')
+    //we need second regex because spaces around hyphens are preserved, and when the hyphens are removed the spaces remain causing -- in the output
     var fileLink = `https://asset.uie.com/pdf/${fileName}.pdf`
 
     // Update the content of the file-name <p> element
