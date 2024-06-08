@@ -14,8 +14,8 @@ function updateFileName() {
     // grab 2 elements for output 
     var fileNameElement = document.getElementById('file-name');
     var fileLinkElement = document.getElementById('file-link')
-    // Remove spaces from the input and replace with dashes
-    var fileName = input.split(' ').join('-').replace('---', '-')
+    // Remove punctuation with regex,spaces from the input and replace with dashes
+    var fileName = input.replace(/[^\w\s]/g, '').split(' ').join('-').replace('---', '-')
     var fileLink = `https://asset.uie.com/pdf/${fileName}.pdf`
 
     // Update the content of the file-name <p> element
