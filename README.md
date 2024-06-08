@@ -8,6 +8,7 @@ Live Call Notes.
 Addresses the issue of incorrect file naming that leads to broken links for PDF files and delays in publishing live notes.
 
 Designed by @AmyVelazquez
+
 OPTIMIZATION:
 - [x]ADD CSS
 - [x]ADD COPY TO CLIPBOARD BUTTONS
