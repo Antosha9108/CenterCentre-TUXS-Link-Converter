@@ -12,9 +12,12 @@
 
     <form id='form'>
         <img src="https://research.centercentre.com/images/CenterCentreLogo.png" alt="centercentrelogo" id="logo">
-        <h1>TUXS LINK CONVERTER</h1>
-        <p>paste the Notes name here:</p>
-        <input type="text" id="notes-input">
+        <h1>Live Event PDF Link Converter</h1>
+        <img id='community-icon' src="Community Icon.png" alt="">
+        <div>
+            <p>Enter Live Event Title Here</p>
+            <input type="text" id="notes-input">
+        </div>
         <p id="file-name"></p>
         <button class="btn btn-shadow" id="copy-file-name-button" style="display: none;"
             onclick="copyFileNameFunction()">Copy PDF
@@ -23,7 +26,7 @@
         <button class="btn btn-shadow" id="copy-file-link-button" style="display: none;"
             onclick="copyFileLinkFunction()">Copy
             PDF Link</button>
-        <button class="btn btn-shadow" type='submit' id="form-button"">Submit</button>
+        <button class="btn btn-shadow" type='submit' id="form-button"">Convert PDF Link</button>
     </form>
 </body>
 

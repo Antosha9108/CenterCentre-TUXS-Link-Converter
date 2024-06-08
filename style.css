@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
 }
 
 
@@ -18,7 +20,9 @@ body {
     /* centers vertically */
     justify-content: center;
     padding: 50px;
-    background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff33bb407-c6e3-41d4-a12c-73bde1b65aa3%2FNotion_Doc_LoA_Header_Graphics.png?table=block&id=4929310f-457b-4279-9d48-c9832365962c&spaceId=154fcae5-90df-4fd9-96a7-2038aff3fc76&width=2000&userId=0df6b6b2-2c4a-4446-b832-f249dd46034f&cache=v2);
+    /* background-image: url(https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff33bb407-c6e3-41d4-a12c-73bde1b65aa3%2FNotion_Doc_LoA_Header_Graphics.png?table=block&id=4929310f-457b-4279-9d48-c9832365962c&spaceId=154fcae5-90df-4fd9-96a7-2038aff3fc76&width=2000&userId=0df6b6b2-2c4a-4446-b832-f249dd46034f&cache=v2); */
+    border: 5px solid #00A3B4;
+    border-radius: 8px;
 }
 
 input {
@@ -32,6 +36,10 @@ input {
 
 #logo {
     max-width: 20em;
+}
+
+#community-icon {
+    max-width: 130px;
 }
 
 /* BUTTON STYLES */
@@ -53,18 +61,39 @@ input {
 .btn {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    max-width: 10em;
+    color: black;
+    max-width: 20em;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-align: center;
     font-size: 1.125rem;
     padding: 0.6em 2em;
-    background: #ec621d;
+    background: white;
     /* -webkit-transition: opacity 250ms linear, -webkit-transform 250ms ease-in-out; */
 
     transition: transform 250ms ease-in-out, opacity 250ms linear, -webkit-transform 250ms ease-in-out;
     margin: 0.35em;
-    border: none;
+    border: 2px solid black;
+    border-radius: 5px;
     outline: none;
+
+}
+
+/* FONTS and COLORS */
+h1 {
+    color: #00A3B4;
+}
+
+#notes-input {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#file-name {
+    font-weight: 200;
+}
+
+#file-link {
+    font-weight: 200;
 }
